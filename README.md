@@ -2,7 +2,7 @@
 
 > EIGRP 환경에서 다양한 경로 필터링(Route Filtering) 기법을 학습하고 실습한 내용을 정리한 저장소입니다.
 
-![EIGRP_Topology](./topology/eigrp_route_filtering_topology.png)
+
 
 ---
 
@@ -38,23 +38,7 @@ Frame-Relay 기반의 5개 라우터(R1~R5) 토폴로지에서 ACL, Prefix-list,
 
 ## 🖥️ Topology
 
-```
-                  13.13.1.0/24                          13.13.4.0/24
-                  13.13.11.0/24                         13.13.14.0/24
-                       |                                     |
-                      [R1] ---------- 150.1.13.0/24 ------- [R4]
-                     / | \
-                    /  |  \
-                 FR    |   FR
-                /      |     \
-              [R2]    (FR)    \
-               |              [R3] -- 150.3.13.0/24 -- [R5]
-         13.13.2.0/24            |                      |
-         13.13.12.0/24    13.13.3.0/24             13.13.5.0/24
-                          13.13.13.0/24            13.13.15.0/24
-
-                          EIGRP AS 100
-```
+![EIGRP_Topology](./topology/eigrp_route_filtering_topology.png)
 
 ---
 
