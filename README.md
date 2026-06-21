@@ -13,11 +13,7 @@ Frame-Relay 기반의 5개 라우터(R1~R5) 토폴로지에서 ACL, Prefix-list,
 
 ---
 
-## 🏷️ Topics / Tags
 
-`cisco` `eigrp` `route-filtering` `prefix-list` `route-map` `distribute-list` `offset-list` `acl` `tagging` `frame-relay` `networking` `ccnp` `ccie` `routing-protocol` `bogon-filter`
-
----
 
 ## 📚 Chapters (목차)
 
